@@ -1,9 +1,8 @@
 # docker desktop
 windowsでdockerを使う場合には、WSL2が推奨されている。
 ## 手順
-docker desktopをインストールする。
+docker desktopをインストールして起動する。
 
-起動してエラー
 ```bash
 WSL2 は、現在のマシン構成ではサポートされていません。
 WSL2 を使用するには、"Linux 用 Windows サブシステム" オプション コンポーネントを有効にしてください。
@@ -11,8 +10,7 @@ WSL2 を使用するには、"Linux 用 Windows サブシステム" オプショ
 "仮想マシン プラットフォーム" を有効にするには、次のコマンドを実行します: wsl.exe --install --no-distribution
 詳細については、https://aka.ms/enablevirtualization をご覧ください。
 ```
-このエラーメッセージが出たら **#1** と **#2**を実行する
-これでdocker desktopが使用できるようなる。
+このエラーメッセージが出たら下記の **#1** と **#2**を実行することで、docker desktopが使用できるようなる。
 
 
 ## #1. WSL2を有効にする

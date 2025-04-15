@@ -21,6 +21,7 @@ WSL2 を使用するには、"Linux 用 Windows サブシステム" オプショ
 パソコンに搭載されているCPUによって有効化する仮想化技術の名称が異なります。
 
 Intel製…Intel Virtualization Technology、Inte-VTなど
+
 AMD製…AMD-Virtualization、AMD-Vなど
 
  ### 手順

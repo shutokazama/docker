@@ -1,4 +1,4 @@
-# Docker desktop
+# docker desktop
 windowsでdockerを使う場合には、WSL2が推奨されている。
 ## 手順
 docker desktopをインストールする。
